@@ -7,7 +7,6 @@
     <meta name="description" content="SE Project Spots with Use of Figma" />
     <meta name="author" content="Leroy Jenkins" />
     <meta name="keywords" content="SE, Spots, Figma" />
-    <link rel="stylesheet" href=".pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,15 +14,98 @@
   </head>
   <body>
     <div class="page">
+      <img src="./images/logo.svg" alt="Spots Logo" class="menubar" />
       <header class="header">
-        <section class="avatar__section">
+        <div class="avatar__section">
           <img
             src="./images/avatar.jpg"
             alt="Illustration 'Aviator Photo'"
             class="avatar__image"
           />
-        </section>
+          <div class="avatar__section_text">
+            <p class="name">Bessie Coleman</p>
+            <p class="description">Civil Aviator</p>
+            <button type="button" class="edit-button">
+              <img src="./images/group_2.svg" alt="Edit" class="editor" />Edit
+              Profile
+            </button>
+          </div>
+        </div>
+        <button type="button" class="new-post-button">
+          <img src="./images/group_26.svg" class="new-post-icon" />New Post
+        </button>
       </header>
+      <main class="content">
+        <section class="card">
+          <div class="card card--cabin">
+            <img
+              src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+              alt="Illustration 'Snowy Cabin'"
+              class="card__image"
+            />
+            <p class="card__text">Val Thorens</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+          <div class="card card--terrace">
+            <img
+              src="./images/2-photo-by-ceiline-from-pexels.jpg"
+              alt="Restaurant Front"
+              class="card__image"
+            />
+            <p class="card__text">Restaurant Terrace</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+          <div class="card card--cafe">
+            <img
+              src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+              alt="Illustration 'Outdoor Cafe'"
+              class="card__image"
+            />
+            <p class="card__text">An Outdoor Cafe</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+          <div class="card card--bridge">
+            <img
+              src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
+              alt="Illustration 'Forest Bridge'"
+              class="card__image"
+            />
+            <p class="card__text">A very long bridge, over the forest</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+          <div class="card card--tunnel">
+            <img
+              src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+              alt="Illustration 'Morning Tunnel'"
+              class="card__image"
+            />
+            <p class="card__text">Tunnel with morning light</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+          <div class="card card--mountain">
+            <img
+              src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+              alt="Illustration 'Mountain House'"
+              class="card__image"
+            />
+            <p class="card__text">Mountain House</p>
+            <button class="card__like-button">
+              <img src="./images/like_icon.svg" class="card__like-icon" />
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">2023 &copy; Spots</footer>
     </div>
   </body>
 </html>
