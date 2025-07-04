@@ -8,7 +8,7 @@
   background-color: #fcf5e5;
 }
 
-.avatar__section {
+.avatar {
   display: flex;
 }
 
@@ -17,7 +17,7 @@
   padding-right: 20px;
 }
 
-.avatar__section_text {
+.avatar__insert {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -28,7 +28,7 @@
   -webkit-box-orient: vertical;
 }
 
-.name {
+.avatar__name {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -38,7 +38,7 @@
   margin: 0 auto;
 }
 
-.description {
+.avatar__description {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -49,7 +49,7 @@
   filter: brightness(0) saturate(100%) invert(0.5);
 }
 
-.edit-button {
+.avatar__edit-button {
   border: 0;
   background-color: #fcf5e5;
   display: flex;
@@ -71,8 +71,7 @@
   filter: brightness(0) saturate(100%) invert(0.5);
   padding-right: 8px;
 }
-
-.span__accent {
+.avatar__button-label {
   filter: brightness(0) saturate(100%) invert(0.5);
 }
 
