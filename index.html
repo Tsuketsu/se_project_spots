@@ -9,36 +9,37 @@
     <meta name="keywords" content="SE, Spots, Figma" />
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <img src="./images/logo.svg" alt="Spots Logo" class="menubar" />
     <div class="page">
       <header class="header">
-        <div class="avatar">
+        <img src="./images/logo.svg" alt="Spots Logo" class="header__logo" />
+      </header>
+      <main class="content">
+        <section class="profile">
           <img
             src="./images/avatar.jpg"
             alt="Illustration 'Aviator Photo'"
-            class="avatar__image"
+            class="profile__avatar"
           />
-          <div class="avatar__insert">
-            <p class="avatar__name">Bessie Coleman</p>
-            <p class="avatar__description">Civil Aviator</p>
-            <button type="button" class="avatar__edit-button">
+          <div class="profile__column">
+            <p class="profile__name">Bessie Coleman</p>
+            <p class="profile__description">Civil Aviator</p>
+            <button type="button" class="profile__edit-button">
               <img src="./images/group_2.svg" alt="Edit" class="editor" /><span
-                class="avatar__button-label"
+                class="profile__button-label"
                 >Edit Profile</span
               >
             </button>
           </div>
-        </div>
-        <button type="button" class="new-post-button">
-          <img src="./images/group_26.svg" alt="" class="new-post-icon" />New
-          Post
-        </button>
-      </header>
-      <main class="content">
+          <button type="button" class="profile__new-post-button">
+            <img
+              src="./images/group_26.svg"
+              alt=""
+              class="profile__new-post-icon"
+            />New Post
+          </button>
+        </section>
         <section class="card-container">
           <div class="card card_cabin">
             <img
