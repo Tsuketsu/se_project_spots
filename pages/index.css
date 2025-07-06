@@ -6,4 +6,6 @@
 @import url(../blocks/content.css);
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
-@import url(../blocks/media.css);
+@import url(../media-queries/laptop.css);
+@import url(../media-queries/tablet.css);
+@import url(../media-queries/mobile.css);
