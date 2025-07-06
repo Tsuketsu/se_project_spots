@@ -18,6 +18,7 @@
 .card__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card__text {
@@ -26,8 +27,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
-  padding-top: 12px;
-  padding-bottom: 4px;
+  padding: 12px 0 4px;
   margin-top: 0;
   margin-bottom: 0;
   text-overflow: ellipsis;
@@ -38,6 +38,10 @@
 .card__like-button {
   border: 0;
   background-color: #fcf5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 4px;
 }
 
 .card__like-button:hover {
