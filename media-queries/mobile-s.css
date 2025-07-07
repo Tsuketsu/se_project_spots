@@ -1,0 +1,12 @@
+@media all and (max-width: 320px) {
+  .content {
+    max-width: 288px;
+  }
+  .card__image {
+    max-width: 273px;
+    margin: 0 auto;
+  }
+  .card__wrapper {
+    max-width: 273px;
+  }
+}
