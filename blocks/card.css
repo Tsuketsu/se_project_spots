@@ -17,7 +17,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
-  max-width: 350px;
+  max-width: 250px;
   padding: 12px 0 4px;
   margin-top: 0;
   margin-bottom: 0;
@@ -48,14 +48,11 @@
     margin: 0 auto;
     object-fit: cover;
   }
+  .card__wrapper {
+    max-width: 288px;
+  }
   .card__text {
     font-size: 16px;
     line-height: 100%;
-  }
-}
-
-@media all and (max-width: 403px) {
-  .card__wrapper {
-    max-width: 273px;
   }
 }
