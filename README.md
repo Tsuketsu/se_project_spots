@@ -18,3 +18,7 @@ This website allows the users to interact with the posts and images. Within the 
 #### Deployment Link
 
 https://tsuketsu.github.io/se_project_spots/
+
+##### Link to Video
+
+https://drive.google.com/file/d/1-uV5Hq-LqShzQxl6eBz8cUCNFdptkDBc/view?usp=share_link
