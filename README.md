@@ -21,4 +21,4 @@ https://tsuketsu.github.io/se_project_spots/
 
 ##### Link to Video
 
-https://drive.google.com/file/d/1-uV5Hq-LqShzQxl6eBz8cUCNFdptkDBc/view?usp=share_link
+https://drive.google.com/file/d/1-uV5Hq-LqShzQxl6eBz8cUCNFdptkDBc/view?usp=sharing
