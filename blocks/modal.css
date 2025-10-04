@@ -10,13 +10,18 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
 .modal_is-opened {
   visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
 }
 
 .modal__container {
+  box-sizing: border-box;
   position: relative;
   max-width: 730px;
   width: 100%;
@@ -29,7 +34,6 @@
   position: absolute;
   top: 32px;
   right: 50px;
-  bottom: 336px;
   font-size: 23px;
   padding: 0;
   color: #21212140;
@@ -46,9 +50,9 @@
 
 .modal__title {
   font-family: "Poppins";
-  font-style: medium;
+  font-style: normal;
   font-weight: 500;
-  size: 32px;
+  font-size: 32px;
   color: #212121;
   margin: 0 0 32px;
 }
@@ -88,6 +92,7 @@
 }
 
 .modal__save-btn {
+  cursor: pointer;
   color: #fcf5e5;
   background-color: #212121;
   border-radius: 8px;
@@ -116,7 +121,7 @@
   }
   .modal__label {
     max-width: 476px;
-    size: 16px;
+    font-size: 16px;
   }
   .modal__input {
     height: 48px;
