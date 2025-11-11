@@ -42,108 +42,23 @@
           </button>
         </section>
         <section class="card-container">
-          <div class="card">
-            <img
-              src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-              alt="Illustration 'Snowy Cabin'"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">Val Thorens</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./images/2-photo-by-ceiline-from-pexels.jpg"
-              alt="Restaurant Front"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">Restaurant Terrace</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-              alt="Illustration 'Outdoor Cafe'"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">An Outdoor Cafe</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
-              alt="Illustration 'Forest Bridge'"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">A very long bridge, over the forest...</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-              alt="Illustration 'Morning Tunnel'"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">Tunnel with morning light</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-              alt="Illustration 'Mountain House'"
-              class="card__image"
-            />
-            <div class="card__wrapper">
-              <h2 class="card__text">Mountain House</h2>
-              <button type="button" class="card__like-button">
-                <img
-                  src="./images/like-icon-dark.svg"
-                  alt="Illustration 'Like Icon'"
-                  class="card__like-icon"
-                />
-              </button>
-            </div>
-          </div>
+          <ul class="card__list">
+            <template id="card-template">
+              <div class="card">
+                <img src="#" alt="" class="card__image" />
+                <div class="card__wrapper">
+                  <h2 class="card__title"></h2>
+                  <button type="button" class="card__like-button">
+                    <img
+                      src="./images/like-icon-dark.svg"
+                      alt="Illustration 'Like Icon'"
+                      class="card__like-icon"
+                    />
+                  </button>
+                </div>
+              </div>
+            </template>
+          </ul>
         </section>
       </main>
       <footer class="footer">
