@@ -42,23 +42,25 @@
           </button>
         </section>
         <section class="card-container">
-          <ul class="card__list">
-            <template id="card-template">
-              <div class="card">
-                <img src="#" alt="" class="card__image" />
-                <div class="card__wrapper">
-                  <h2 class="card__title"></h2>
-                  <button type="button" class="card__like-button">
-                    <img
-                      src="./images/like-icon-dark.svg"
-                      alt="Illustration 'Like Icon'"
-                      class="card__like-icon"
-                    />
-                  </button>
-                </div>
+          <template id="card-template">
+            <div class="card">
+              <button
+                aria-label="Delete card"
+                type="button"
+                class="card__delete-button"
+              ></button>
+              <img src="#" alt="" class="card__image" />
+
+              <div class="card__wrapper">
+                <h2 class="card__title"></h2>
+                <button
+                  aria-label="Like card"
+                  type="button"
+                  class="card__like-button"
+                ></button>
               </div>
-            </template>
-          </ul>
+            </div>
+          </template>
         </section>
       </main>
       <footer class="footer">
@@ -126,6 +128,17 @@
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>
+        </div>
+      </div>
+      <div class="modal" id="preview-modal">
+        <div class="modal__content">
+          <button
+            aria-label="Close modal"
+            type="button"
+            class="modal__close"
+          ></button>
+          <img src="" alt="" class="modal__image" />
+          <p class="modal__description"></p>
         </div>
       </div>
     </div>
