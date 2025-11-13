@@ -42,13 +42,11 @@
   background: transparent url(../images/Property\ 1=Default.svg) center
     no-repeat;
   border: none;
-  max-width: 40px;
-  width: 100%;
 }
 
 .modal__close-btn:hover {
   cursor: pointer;
-  color: #212121;
+  opacity: 0.4;
 }
 
 .modal__title {
@@ -67,7 +65,6 @@
 
 .modal__label {
   font-family: "Poppins";
-  font-style: medium;
   font-weight: 500;
   font-size: 16px;
   color: #21212170;
@@ -77,7 +74,6 @@
 .modal__input {
   font-family: "Poppins";
   font-weight: 500;
-  font-style: medium;
   font-size: 20px;
   color: #212121;
   max-width: 630px;
@@ -128,8 +124,6 @@
   background: transparent url(../images/Property\ 1=Variant3.svg) center
     no-repeat;
   border: none;
-  max-width: 40px;
-  width: 100%;
 }
 
 .modal__close:hover {
@@ -149,11 +143,9 @@
 .modal__description {
   font-family: "Poppins";
   font-weight: 500;
-  font-style: medium;
   font-size: 20px;
   line-height: 120%;
   max-width: 214px;
-  max-height: 32px;
   width: 100%;
   border-radius: 8px;
   color: #fff;

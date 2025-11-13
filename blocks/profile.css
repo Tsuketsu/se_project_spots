@@ -71,13 +71,8 @@
   opacity: 1;
 }
 
-.profile__edit-icon {
-  gap: 8px;
-}
-
 .profile__new-post-button {
   font-family: "Poppins";
-  font-style: medium;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -97,7 +92,7 @@
 }
 
 .profile__new-post-button:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 @media all and (max-width: 536px) {

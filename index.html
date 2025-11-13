@@ -42,25 +42,26 @@
           </button>
         </section>
         <section class="card-container">
-          <template id="card-template">
-            <div class="card">
-              <button
-                aria-label="Delete card"
-                type="button"
-                class="card__delete-button"
-              ></button>
-              <img src="#" alt="" class="card__image" />
-
-              <div class="card__wrapper">
-                <h2 class="card__title"></h2>
+          <ul>
+            <template id="card-template">
+              <li class="card">
                 <button
-                  aria-label="Like card"
+                  aria-label="Delete card"
                   type="button"
-                  class="card__like-button"
+                  class="card__delete-button"
                 ></button>
-              </div>
-            </div>
-          </template>
+                <img src="#" alt="" class="card__image" />
+                <div class="card__wrapper">
+                  <h2 class="card__title"></h2>
+                  <button
+                    aria-label="Like card"
+                    type="button"
+                    class="card__like-button"
+                  ></button>
+                </div>
+              </li>
+            </template>
+          </ul>
         </section>
       </main>
       <footer class="footer">
@@ -70,7 +71,7 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
             <img
-              src="./images/Property 1=Default.svg"
+              src="./images/Property%201=Default.svg"
               alt="Illustration 'Close Icon'"
             />
           </button>
@@ -102,7 +103,7 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
             <img
-              src="./images/Property 1=Default.svg"
+              src="./images/Property%201=Default.svg"
               alt="Illustration 'Close Icon'"
             />
           </button>
@@ -115,6 +116,7 @@
                 type="url"
                 class="modal__input modal__input-image"
                 placeholder="Paste a link to the picture"
+                required
               />
             </label>
             <label for="card-caption-input" class="modal__label"
@@ -124,6 +126,7 @@
                 type="text"
                 class="modal__input modal__input-caption"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
@@ -137,7 +140,7 @@
             type="button"
             class="modal__close"
           ></button>
-          <img src="" alt="" class="modal__image" />
+          <img src="#" alt="" class="modal__image" />
           <p class="modal__description"></p>
         </div>
       </div>
